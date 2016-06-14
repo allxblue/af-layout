@@ -1,0 +1,23 @@
+/** ___  ASUS Framework layout  ____________________________________________
+ * 
+ *    用來定義給外包的參考結構，或是 webmaster 設計可以較為輕易
+ * ___________________________________________________________ */
+
+/* base */
+@import "af-layout/bp-setting";
+
+
+/* common */
+// 有需要再拆
+@import "af-layout/common";
+
+
+/* RWD */
+@import "af-layout/desktop";
+@import "af-layout/tablet";
+@import "af-layout/mobile";
+
+
+/* Overwrite */
+@import "af-layout/overwrite";
+

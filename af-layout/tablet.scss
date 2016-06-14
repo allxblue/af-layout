@@ -1,0 +1,35 @@
+/** ___  RWD Tablet  ____________________________________________ **/
+
+@media #{$rwd-below-maxTablet} {
+.af-layout{
+
+	.af-section-item {
+		.af-section-inner{
+			width: 100%;
+		}
+	}
+
+	/* ------ 磚塊排法 ------ */
+	.af-tiles{
+		&.tile-m-3 .af-tile-item{ width:33.33% }
+		&.tile-m-4 .af-tile-item{ width:25% }
+		&.tile-m-5 .af-tile-item{ width:20% }
+		&.tile-m-6 .af-tile-item{ width:16.66% }
+		&.tile-m-7 .af-tile-item{ width:14.2857% }
+		&.tile-m-8 .af-tile-item{ width:12.5% }
+	}
+
+	.af-cols{
+		&.col-m-1 > .af-col{ width:100% }
+		&.col-m-2 > .af-col{ width:50% }
+		&.col-m-3 > .af-col{ width:33.33% } /* 切成三欄 */
+		&.col-m-4 > .af-col{ width:25% }
+		&.col-m-5 > .af-col{ width:20% }
+		&.col-m-6 > .af-col{ width:16.66% }
+		&.col-m-7 > .af-col{ width:14.2857% }
+		&.col-m-8 > .af-col{ width:12.5% }
+	}
+
+}
+
+}
